@@ -48,7 +48,4 @@ public class MovieController {
         model.addAttribute("movies", this.movieRepository.findByYear(year));
         return "foundMovies.html";
     }
-
-
-
 }
