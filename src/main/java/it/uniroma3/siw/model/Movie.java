@@ -32,34 +32,34 @@ public class Movie {
     }
 
     public Long getId() {
-            return id;
-        }
+        return id;
+    }
 
-        public void setId(Long id) {
-            this.id = id;
-        }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-        public String getTitle() {
-            return title;
-        }
+    public String getTitle() {
+        return title;
+    }
 
-        public void setTitle(String title) {
-            this.title = title;
-        }
+    public void setTitle(String title) {
+        this.title = title;
+    }
 
-        public Integer getYear() {
-            return year;
-        }
+    public Integer getYear() {
+        return year;
+    }
 
-        public void setYear(Integer year) {
-            this.year = year;
-        }
+    public void setYear(Integer year) {
+        this.year = year;
+    }
 
-        public String getUrlImage() {
-            return urlImage;
-        }
+    public String getUrlImage() {
+        return urlImage;
+    }
 
-        public void setUrlImage(String urlImage) {
-            this.urlImage = urlImage;
-        }
+    public void setUrlImage(String urlImage) {
+        this.urlImage = urlImage;
+    }
     }

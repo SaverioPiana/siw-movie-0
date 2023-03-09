@@ -39,7 +39,7 @@ public class MovieController {
     }
 
     @GetMapping("/formSearchMovies")
-    public String formSearchMovies() {
+    public String formSearchMovies(Model model) {
         return "formSearchMovies.html";
     }
 

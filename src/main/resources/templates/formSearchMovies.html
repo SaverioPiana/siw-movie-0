@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FormSearchMovies</title>
+</head>
+<body>
+  <form th:action="@{/searchMovies}" method="POST">
+    <div>
+      <label for="year" >Anno:</label><br>
+      <input required type="text" id="year" name="year"/>
+    </div>
+    <div>
+      <span><button type="submit">Cerca</button></span>
+    </div>
+  </form>
+</body>
+</html>
