@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>FormNewMovie</title>
@@ -10,13 +11,13 @@
       <span th:text="${messaggioErrore}">Errore</span>
     </div>
     <div>
-      Titolo: <span><input required type="text" th:field="${movie.title}"/></span>
+      Titolo: <label><input required type="text" th:field="${movie.title}"/></label>
     </div>
     <div>
-      Anno: <span><input required type="text" th:field="${movie.year}"/></span>
+      Anno: <label><input required type="text" th:field="${movie.year}"/></label>
     </div>
     <div>
-      URL immagine: <span><input type="url" th:field="${movie.urlImage}" /></span>
+      URL immagine: <label><input type="url" th:field="${movie.urlImage}" /></label>
     </div>
     <div>
       <span><button type="submit">Conferma</button></span>
